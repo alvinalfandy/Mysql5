@@ -1,5 +1,3 @@
-![image](https://github.com/alvinalfandy/Mysql5/assets/64345368/da57b5c6-15c5-4dc4-a5bd-d5eda6b1054a)# Tugas Praktikum { Pertemuan ke 11 } <img src=https://logos-download.com/wp-content/uploads/2016/05/MySQL_logo_logotype.png width="130px" >
-
 ## Profil
 | Variable | Isi |
 | -------- | --- |
@@ -49,7 +47,7 @@ SELECT m.nim, m.nama, m.jk, d.nama AS 'Dosen PA'
 FROM mahasiswa m
 JOIN dosen d ON m.kd_ds = d.kd_ds;
 ```
-- join
+- LEFT JOIN table Mahasiswa dan Dosen
 ![image](https://github.com/alvinalfandy/Mysql5/assets/64345368/b4d1430b-6275-44b8-b889-3c7e8a636ab1)
 ```
 SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
